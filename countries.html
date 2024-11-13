@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Information</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        nav {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            background-color: #f80606;
+        }
+        nav a {
+            color: rgb(12, 12, 12);
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color:rgba(24, 192, 235, 0.644);
+        }
+
+        header {
+            background-color: #444;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 36px;
+            letter-spacing: 2px;
+        }
+
+        .country-section {
+            width: 80%;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .country-section h2 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .country-section img {
+            width: 100%;
+            height: auto;
+            max-height: 300px;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+
+        .country-section p {
+            font-size: 16px;
+            color: #555;
+            margin-top: 15px;
+        }
+
+        .country-section .flag {
+            width: 50px;
+            height: auto;
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .country-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 30px;
+        }
+
+        .country {
+            flex: 1 1 calc(50% - 30px);
+            margin-bottom: 40px;
+        }
+
+        footer {
+            background-color: #444;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    Explore Countries
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="information.html">Information</a> <!-- Correct link to Information page -->
+    <a href="about.html">About</a>
+    <a href="countries.html">Countries</a>
+</nav>
+
+<!-- Main Content for Countries -->
+<div class="country-container">
+
+    <!-- India Section -->
+    <div class="country">
+        <div class="country-section">
+            <h2><img src="https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg" class="flag" alt="India Flag">India</h2>
+            <img src="https://images.unsplash.com/photo-1548013146-72479768bada?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dGFqJTIwbWFoYWx8ZW58MHx8MHx8fDA%3D" alt="Taj Mahal">
+            <p>India is known for its vast cultural diversity, vibrant festivals, ancient architecture, and its significance in world history. Famous landmarks include the Taj Mahal, Jaipur’s Pink City, and the backwaters of Kerala. India’s cuisine is as diverse as its culture, with famous dishes like biryani, butter chicken, and masala dosa.</p>
+        </div>
+    </div>
+
+    <!-- Germany Section -->
+    <div class="country">
+        <div class="country-section">
+            <h2><img src="https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg" class="flag" alt="Germany Flag">Germany</h2>
+            <img src="https://neuschwansteintickets.com/images/disney-castle-neuschwanstein.jpg" alt="Neuschwanstein Castle">
+            <p>Germany is famous for its history, picturesque landscapes, and architectural marvels. The capital, Berlin, is rich with historical landmarks like the Berlin Wall and Brandenburg Gate. Other notable attractions include Bavaria's Neuschwanstein Castle and the Rhine Valley. Germany is also known for its robust engineering, as well as its contributions to science, art, and philosophy. Don’t forget to try German sausages and the famous beer at Oktoberfest!</p>
+        </div>
+    </div>
+
+    <!-- Italy Section -->
+    <div class="country">
+        <div class="country-section">
+            <h2><img src="https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg" class="flag" alt="Italy Flag">Italy</h2>
+            <img src="https://cdn.britannica.com/02/179502-138-AE3BE74C/effects-construction-Rome-Colosseum.jpg?w=800&h=450&c=crop" alt="Colosseum">
+            <p>Italy is renowned for its incredible history, art, and food. From the Colosseum in Rome to the canals of Venice, Italy is home to many of the world's most iconic landmarks. Known as the birthplace of the Renaissance, Italy is also famous for its contributions to art, architecture, and culture. Culinary delights like pizza, pasta, and gelato make Italy a top destination for food lovers.</p>
+        </div>
+    </div>
+
+    <!-- Japan Section -->
+    <div class="country">
+        <div class="country-section">
+            <h2><img src="https://upload.wikimedia.org/wikipedia/en/9/9e/Flag_of_Japan.svg" class="flag" alt="Japan Flag">Japan</h2>
+            <img src="https://i0.wp.com/tokyotreatblog.wpcomstaging.com/wp-content/uploads/2024/02/mt-fuji-japan-thumbnail.webp?fit=1024%2C683&ssl=1" alt="Mt. Fuji">
+            <p>Japan offers a perfect mix of ancient traditions and cutting-edge modernity. Famous for its temples, gardens, and unique culture, the country is also known for its technological advancements. Highlights include Mount Fuji, Kyoto’s temples, and Tokyo’s bustling metropolis. Japan’s cuisine, like sushi, ramen, and tempura, is beloved worldwide. Experience the cherry blossoms in spring and immerse yourself in Japan's rich heritage.</p>
+        </div>
+    </div>
+
+    <!-- Greece Section -->
+    <div class="country">
+        <div class="country-section">
+            <h2><img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Greece.svg" class="flag" alt="Greece Flag">Greece</h2>
+            <img src="https://www.learnreligions.com/thmb/q41tKYaPMiGyNYTtlRxEouU5JgY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/pantheon--rome--italy-870287362-5a87671b6bf06900375c06f2.jpg" alt="Parthenon">
+            <p>Greece is known for its ancient history, beautiful islands, and Mediterranean culture. The Parthenon in Athens, the islands of Santorini and Mykonos, and the ancient ruins of Delphi are just a few examples of Greece’s rich cultural heritage. Greece is also famous for its delicious cuisine, which includes dishes like moussaka, souvlaki, and tzatziki. The country's beautiful beaches and vibrant history make it a favorite destination for travelers.</p>
+        </div>
+    </div>
+
+    <!-- Egypt Section -->
+    <div class="country">
+        <div class="country-section">
+            <h2><img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Egypt.svg" class="flag" alt="Egypt Flag">Egypt</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Kheops-Pyramid.jpg" alt="Great Pyramid of Giza">
+            <p>Egypt is home to one of the world’s oldest civilizations, with iconic landmarks like the Great Pyramid of Giza, the Sphinx, and the Valley of the Kings. The Nile River, which runs through the country, has been the lifeline of Egypt for millennia. Egyptian cuisine is a delightful mix of flavors, with dishes like koshari and ful medames being local favorites. Egypt's ancient history, desert landscapes, and bustling cities offer a unique travel experience.</p>
+        </div>
+    </div>
+
+</div>
+
+<!-- Footer -->
+<footer>
+    © 2024 Travel Explorer - Your Guide to the World!
+</footer>
+
+</body>
+</html>

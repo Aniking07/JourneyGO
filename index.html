@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Amazing Web App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            font-size: 24px;
+        }
+        nav {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            background-color: #f80606;
+        }
+        nav a {
+            color: rgb(12, 12, 12);
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color:rgba(24, 192, 235, 0.644);
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: rgb(245, 205, 145);
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .content {
+            margin-bottom: 20px;
+            color: #666;
+        }
+        .image-container {
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .image-container img {
+            max: lenght 500px;
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .first-paragraph{
+            font-family:fantasy;
+        }
+
+
+
+        /* Chatbot Styles */
+        .chatbot-container {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 300px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            display: none; /* Initially hidden */
+            z-index: 1000; /* Make sure it's above all other elements */
+        }
+        .chatbot-header {
+            background-color: #444;
+            color: white;
+            padding: 10px;
+            font-size: 16px;
+            text-align: center;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        .chatbot-body {
+            padding: 10px;
+            max-height: 300px;
+            overflow-y: auto;
+            font-size: 14px;
+        }
+        .chatbot-footer {
+            display: flex;
+            border-top: 1px solid #ddd;
+        }
+        .chatbot-input {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            outline: none;
+            font-size: 14px;
+        }
+        .send-btn {
+            padding: 10px;
+            background-color: #444;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .chat-icon {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #444;
+            color: white;
+            padding: 15px;
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        .message {
+            margin-bottom: 10px;
+        }
+        .message.bot {
+            text-align: left;
+            color: #444;
+        }
+        .message.user {
+            text-align: right;
+            color: blue;
+        }
+            
+    </style>
+</head>
+<body>
+    <header>
+    JourneyGO
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="information.html">Information</a> <!-- Correct link to Information page -->
+        <a href="about.html">About</a>
+        <a href="countries.html">Countries</a>
+    </nav>
+
+    <div class="container">
+        <div class="content">
+            <p class="first-paragraph">
+Identities are profoundly shaped by the cultures we belong to, as culture serves as the foundation for how 
+individuals define themselves and engage with the world around them. Culture consists of shared values, customs, 
+traditions, languages, and social practices that influence our perceptions, beliefs, and behaviors. These elements 
+of culture are key to shaping both personal and collective identities, providing a sense of belonging and connection 
+to a particular community or group. Our identities are often expressed through the way we dress, speak, celebrate, 
+and interact with others, reflecting the norms and values of our cultural backgrounds. However, in today’s 
+increasingly interconnected world, travel and tourism have become essential in broadening these identities and enhancing 
+cultural exchange. Through travel, individuals can immerse themselves in new cultures, experience different ways of life, 
+and gain a deeper understanding of diverse traditions and customs. Tourism fosters appreciation and respect for cultural 
+diversity, breaking down stereotypes and promoting mutual understanding between people of different backgrounds. It allows 
+travelers to step outside of their comfort zones, challenge preconceived notions, and enrich their perspectives by learning 
+from the cultures they encounter. Moreover, travel and tourism are vital in preserving cultural heritage and identity, 
+as they create opportunities for communities to share their unique practices, traditions, and histories with the world. 
+This not only sustains cultural pride but also provides economic support to regions that rely on cultural tourism. 
+In many cases, tourism helps maintain cultural sites, traditional arts, and festivals, ensuring they are passed down to 
+future generations. Ultimately, travel and tourism are powerful tools for promoting cultural awareness, global understanding, 
+and the celebration of the diverse identities that make up our world. They remind us that while our identities may be rooted 
+in our own cultures, they are continually shaped and expanded by the experiences and connections we make with others through travel.
+
+
+
+
+
+
+</p>
+<center>
+<video width="600" height="400" controls>
+    <source src="video.mp4" type="video/mp4">
+    <source src="https://www.google.com/search?q=video+about+culture+and+identity&oq=video+about+cultur
+    e+and+identity+&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORifBTIHCAEQIRigATIHCAIQIRifBTIHCAMQIRifBTIHCAQQIRifBdIBCDgzMzJqMG
+    o3qAIAsAIA&sourceid=chrome&ie=UTF-8#" type="video/webm">
+    Your browser does not support the video tag.
+</video>
+.
+
+
+
+
+
+
+
+
+
+
+</center>
+         <!-- Chat Icon -->
+    <div class="chat-icon" id="chat-icon">💬</div>
+
+    <!-- Chatbot Container -->
+    <div class="chatbot-container" id="chatbot">
+        <div class="chatbot-header">Travel Assistant</div>
+        <div class="chatbot-body" id="chatbot-body">
+            <div class="message bot">Hello! How can I help you with your travel plans today?</div>
+        </div>
+        <div class="chatbot-footer">
+            <input type="text" class="chatbot-input" id="chatbot-input" placeholder="Type a message...">
+            <button class="send-btn" id="send-btn">Send</button>
+        </div>
+    </div>
+
+    <script>
+        // Toggle chatbot visibility
+        const chatIcon = document.getElementById('chat-icon');
+        const chatbot = document.getElementById('chatbot');
+        chatIcon.addEventListener('click', () => {
+            chatbot.style.display = chatbot.style.display === 'block' ? 'none' : 'block';
+        });
+
+        // Sending messages to the chatbot
+        const sendBtn = document.getElementById('send-btn');
+        const chatbotBody = document.getElementById('chatbot-body');
+        const chatbotInput = document.getElementById('chatbot-input');
+
+        sendBtn.addEventListener('click', () => {
+            const userMessage = chatbotInput.value;
+            if (userMessage.trim() !== '') {
+                // Display user message
+                const userMessageDiv = document.createElement('div');
+                userMessageDiv.classList.add('message', 'user');
+                userMessageDiv.textContent = userMessage;
+                chatbotBody.appendChild(userMessageDiv);
+
+                // Clear input
+                chatbotInput.value = '';
+
+                // Scroll to bottom
+                chatbotBody.scrollTop = chatbotBody.scrollHeight;
+
+                // Simulate bot reply based on input
+                setTimeout(() => {
+                    const botReplyDiv = document.createElement('div');
+                    botReplyDiv.classList.add('message', 'bot');
+
+                    // Check user input and provide relevant responses
+                    let botReply = "I'm here to help with your travel plans!";
+                    if (userMessage.toLowerCase().includes("best destination")) {
+                        botReply = "Some of the best destinations are Bali, Paris, Tokyo, and New York. Where would you like to go?";
+                    } else if (userMessage.toLowerCase().includes("recommend")) {
+                        botReply = "I recommend visiting Italy for its rich history, or Thailand for its beautiful beaches!";
+                    } else if (userMessage.toLowerCase().includes("budget")) {
+                        botReply = "For budget-friendly options, consider Southeast Asia, Eastern Europe, or South America.";
+                    } else if (userMessage.toLowerCase().includes("visa")) {
+                        botReply = "For visa information, it's best to check the official government site of your destination country.";
+                    } else if (userMessage.toLowerCase().includes("help")) {
+                        botReply = "I'm here to help with travel destinations, trip planning, budget recommendations, and more. Just ask!";
+                    } else {
+                        botReply = "That's interesting! Do you have a destination in mind?";
+                    }
+
+                    botReplyDiv.textContent = botReply;
+                    chatbotBody.appendChild(botReplyDiv);
+                    chatbotBody.scrollTop = chatbotBody.scrollHeight;
+                }, 1000);
+            }
+        });
+    </script>
+</body>
+</html>
